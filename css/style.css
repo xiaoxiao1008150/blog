@@ -1,0 +1,276 @@
+body,ul{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	font-size:18px;
+	color:#fff;
+}
+li{
+	list-style-type: none;
+}
+h1{
+	font-size:18px;
+	margin:0;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+p{
+	font-size:14px;
+	padding:8px;
+	font-weight: 400;
+}
+.clearfix:after{
+   content:"";
+   display:block;
+   clear:both;
+}
+.hr{
+	height:1px;
+	background: #fff;
+	width:100%;
+	margin:30px;
+}
+
+#header .nav{
+	width:100%;
+	height:50px;
+	background:transparent;
+	color:#fff;
+}
+#header .nav ul{
+	float: right;
+	margin-right:15px;
+}
+#header .nav ul li{
+	display: inline-block;
+	height:50px;
+	width:80px;
+	line-height: 50px;
+}
+#header .nav ul li a{
+	display: inline-block;
+	height:50px;
+	width:100%;
+	text-align: center;
+	border-radius: 5px;
+}
+#header .nav ul li a:hover{
+	background: rgba(255,255,255,0.2);
+	
+}
+#header .nav span{
+	height:50px;
+	line-height: 50px;
+	margin-left:30px;
+	font-size: 20px;
+	letter-spacing: 1px;
+    font-weight: 600;
+}
+#header .banner{
+	width:100%;
+	height:500px;
+	background:transparent;
+	color:#fff;
+}
+#header .banner .wrapper{
+	width:60%;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 120px;
+}
+#header .banner .wrapper .hr{
+	width:20%;
+	margin:25px auto;
+}
+#header .banner h1{
+	letter-spacing: 4px;
+}
+#header .banner .wrapper button{
+	padding:6px 30px;
+	letter-spacing: 2px;
+    font-weight: 400;
+    margin-top:40px;
+    margin-left: -3px;
+    background: red;
+    border:none;
+    border-radius: 4px;
+}
+
+
+#main .green-section{
+    width:100%;
+    height:330px;
+    background:#089DB0;
+    color:#fff;
+}
+#main .green-section .rapper{
+	width:60%;
+	margin:0 auto;
+	text-align: center;
+}
+#main .green-section .rapper h1{
+	padding-top:20px;
+}
+#main .green-section .rapper .hr{
+	width:20%;
+	margin:15px auto;
+}
+#main .green-section .icon{
+	display: inline-block;
+	width:80px;
+	height:80px;
+	border:1px solid #0D6F7C;
+	margin:20px;
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-0-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	transform:rotate(45deg);
+	text-align: left;
+}
+.icon i{
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-0-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	font-size:40px;
+	position: relative;
+	right:-18px;
+	bottom:-18px;
+	color:rgba(255,255,255,0.4);
+    
+
+}
+#main .gray-section{
+	background: #252F34;
+	color:#fff;
+}
+#main .gray-section .mapper{
+	width:100%;
+	/* background: #ccc; */
+	overflow: auto;
+	font-size:0;
+}
+#main .gray-section .mapper:nth-child(odd){
+	background: rgba(255,255,255,0.05);
+}
+.gray-section .mapper>div{
+    float:left;
+}
+.gray-section .sub-img{
+	width:35%;
+	background: green;
+}
+.gray-section img{
+	width:100%;
+}
+.gray-section .sub-text{
+	width:65%;
+
+}
+.gray-section h1{
+	margin:6px;
+	text-indent: 2px;
+}
+.gray-section .napper{
+	margin-top:40px;
+	margin-left:35px;
+}
+.purple-section{
+	width:100%;
+	background: #559EC9; 
+	color:#fff;
+}
+#main .purple-section{
+	background: #262149;
+	height:730px;
+}
+.purple-section .qapper{
+	width:50%;
+	margin:0 auto;
+	text-align: center;
+	height:400px;
+
+}
+.purple-section  h1{
+	padding-top:20px;
+}
+.card-group .card{
+	width:50%;
+	height:180px;
+	float: left;
+	box-sizing:border-box;
+	text-align: left;
+}
+.card header{
+	width:70%;
+	margin:10px auto;
+}
+.card p{
+	font-size:12px;
+	line-height:18px;
+}
+.card h1{
+	font-weight:500;
+	font-size: 14px;
+	margin:5px;
+	text-indent: 2px;
+}
+.card:first-child{
+	background: rgba(0,0,0,0.04);
+}
+.card:nth-child(2){
+	background: rgba(0,0,0,0.08)
+}
+.card:nth-child(3){
+	background: rgba(0,0,0,0.12)
+}
+.card:nth-child(4){
+	background: rgba(0,0,0,0.16)
+}
+.card:nth-child(5){
+	background: rgba(0,0,0,0.20)
+}
+.card:nth-child(6){
+	background: rgba(0,0,0,0.24)
+}
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+#footer{
+	background: #333;
+	color:#fff;
+	height:200px;
+	text-align: center;
+}
+.share-group{
+	display:block;
+	width:50%;
+	margin:0 auto;
+	padding:50px;
+}
+.share-group li{
+   display:inline-block;
+   padding:10px;
+}
+.copy{
+	padding:15px;
+	font-size:14px;
+	color:gray;
+}
+.sum-wrapper{
+	background-image:url(../img/image-04.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center bottom;
+}
+
+
+
+
